@@ -14,6 +14,10 @@
 .ln {
     Border : 1px solid #424242;}
 
+a {
+    font-style: none;
+}
+
 :root {
     --primary: rgb(255, 255, 255); 
     }
