@@ -32,7 +32,7 @@ a {
 */
 nav {
     width: 100%;
-    max-width: 1640px;
+    /* max-width: 1640px; */
     height: 95px;
     padding-left: 120px;
     padding-right: 120px;
@@ -170,18 +170,19 @@ li:hover {
 }
 
 .grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(12,1fr);
 }
 
-.intro {
+#intro {
     grid-column: span 4;
-    height: 1000px;
+    /* height: 1000px; */
     min-width: 320px;
-    margin-left: 20%;
+    margin-left: 10%;
+    /* padding-left: 60px; */
 }
 
-.intro > * {
+#intro > * {
     margin-left: 40px;
     margin-right: 40px;
 
@@ -334,10 +335,12 @@ footer {
     /* body {
       background-color: lightblue;
     } */
-  .grid-12 {
+  .grid-12, .grid {
       flex-direction: column;
       justify-content: flex-start;
   }
-
+  .photo, .right >* {
+      transform:scale(0.8);
+  }
 }
   
