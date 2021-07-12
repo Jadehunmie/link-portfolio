@@ -41,6 +41,11 @@ nav {
     transition: 240ms;
 
 }
+
+nav li {
+    cursor: pointer
+    }
+    
 .logo {
     display: flex;
     justify-content: center;
