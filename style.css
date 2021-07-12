@@ -32,7 +32,7 @@ a {
 */
 nav {
     width: 100%;
-    max-width: 1640px;
+    /* max-width: 1640px; */
     height: 95px;
     padding-left: 120px;
     padding-right: 120px;
@@ -174,14 +174,15 @@ li:hover {
     grid-template-columns: repeat(12,1fr);
 }
 
-.intro {
+#intro {
     grid-column: span 4;
-    height: 1000px;
+
+    /* height: 1000px; */
     min-width: 320px;
     margin-left: 20%;
 }
 
-.intro > * {
+#intro > * {
     margin-left: 40px;
     margin-right: 40px;
 
@@ -198,8 +199,8 @@ li:hover {
     flex-direction: row;
     flex-grow: 1;
     flex-flow: wrap;
-    
-    
+  
+  
 
 }
 
@@ -334,10 +335,14 @@ footer {
     /* body {
       background-color: lightblue;
     } */
-  .grid-12 {
+.grid-12 {
       flex-direction: column;
       justify-content: flex-start;
   }
-
+.grid {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+  
 }
   
