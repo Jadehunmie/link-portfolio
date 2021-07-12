@@ -15,7 +15,7 @@
     Border : 1px solid #424242;}
 
 a {
-    font-style: none;
+    text-decoration: none;
 }
 
 :root {
@@ -31,21 +31,25 @@ a {
 }
 */
 nav {
-    width: 80%;
+    width: 100%;
     max-width: 1640px;
     height: 95px;
+    padding-left: 120px;
+    padding-right: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 120px;
+    /* margin-left: 120px; */
     transition: 240ms;
+    background-color: white;
+    position: sticky;
 
 }
 
 nav li {
     cursor: pointer
     }
-    
+
 .logo {
     display: flex;
     justify-content: center;
@@ -232,6 +236,9 @@ li:hover {
   
 }
 */
+h1 {
+    font-size: 30px;
+}
 
 h2, h3 {
     color: #428551;
